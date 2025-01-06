@@ -1,0 +1,77 @@
+name: mit_realok
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # UI and Design Dependencies
+  glassmorphism: ^3.0.0
+  smooth_page_indicator: ^1.0.0
+  animations: ^2.0.7
+  motion_tab_bar: ^2.0.4
+  syncfusion_flutter_charts: ^21.1.41
+  # HTTP и HTML парсинг
+  http: ^1.2.0
+  html: ^0.15.4
+  url_launcher: ^6.0.20
+  # Существующие зависимости
+  shared_preferences: ^2.2.2
+  video_player: ^2.8.1
+  cupertino_icons: ^1.0.8
+  connectivity_plus: ^3.0.6
+  uuid: ^3.0.6
+  file_picker: ^5.0.1
+  # Дополнительные полезные пакеты
+  provider: ^6.1.1
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - lib/assets/folder/folder.png
+    - lib/assets/folder/lightbulb-setting.png
+    - lib/assets/folder/todo.jpg
+    - lib/assets/folder/lol.mp4
+    - lib/assets/folder/medved.mp4
+    - lib/assets/folder/sticker2.webp
+    - lib/assets/folder/sticker.webp
+    - lib/assets/folder/giphy720p.mp4
+    - lib/assets/folder/Tree.mp4
+    - lib/assets/folder/fonout.mp4
+    - lib/assets/folder/me.jpg
+    - lib/assets/folder/AnyConv.com__lol.h264
