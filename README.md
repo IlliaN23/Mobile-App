@@ -1,6 +1,7 @@
 # mit_realok
 
-A new Flutter project.
+Simple app that can find C++ vacancies using an API to find them on the most popular site. Additionally, have some different screen/chat menus 
+P.S build for my uni
 
 ## Getting Started
 
